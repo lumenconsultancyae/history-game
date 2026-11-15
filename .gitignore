@@ -1,11 +1,36 @@
+# Python
 __pycache__/
 *.py[cod]
+*$py.class
+*.egg-info/
+.installed.cfg
+*.egg
 .venv/
 venv/
+ENV/
+.pytest_cache/
+.coverage
+htmlcov/
+.ruff_cache/
+.mypy_cache/
+
+# SQLite Databases
+*.db
+*.db-shm
+*.db-wal
+*.sqlite
+*.sqlite3
+
+# Frontend / Node
 node_modules/
+frontend/node_modules/
+frontend/dist/
 dist/
 build/
-.env
+*.tsbuildinfo
+
+# OS / IDE
 .DS_Store
-*.db
-*.sqlite3
+.idea/
+.vscode/
+*.swp
